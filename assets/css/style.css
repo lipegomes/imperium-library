@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    color: #ffc38b;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    padding: 5px;
+    background: #ff926b;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+/* NAV */
+nav {
+    background: #4d3e3e;
+    color: #fff3cd;
+    font-size: 15px;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+nav>a {
+    color: #fff3cd;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+}
+
+nav>a>img {
+    width: 30px;
+    height: 30px;
+    margin: 4px;
+    border: 1px solid #fff3cd;
+    border-radius: 20px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    padding: 10px;
+    font-size: 11px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #fff3cd;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* SECTIION 1 */
+div.section1 {
+    background: url("../img/biblioteca.jpg") transparent;
+    padding: 100px 50px;
+    background-attachment: fixed;
+    color: #ffc38b;
+    text-align: center;
+    border-bottom: 1px solid #ff926b;
+}
+
+div.section1 h1 {
+    color: #fff3cd;
+    text-align: center;
+    text-shadow: #4d3e3e 2px 2px 2px;
+    font-family: 'Lobster', cursive;
+}
+
+div.section1 h3 {
+    color: #fff3cd;
+    font-size: 13px;
+    text-align: center;
+    text-shadow: #4d3e3e 2px 2px 2px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* SECTION 2 */
+div.section2 {
+    padding: 20px;
+    background: #fff3cd;
+    color: #4d3e3e;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    border-bottom: 1px solid #4d3e3e;
+}
+
+div.section2 h1 {
+    text-align: center;
+    border-bottom: 1px solid #4d3e3e;
+    padding: 10px;
+    margin: 30px auto;
+    max-width: 500px;
+}
+
+div.section2 p {
+    font-size: 20px;
+}
+
+/* SECTION 3 */
+div.section3 {
+    background: url("../img/livro.jpg") no-repeat #ffc38b;
+    padding: 20px;
+    border-bottom: 1px solid #ffc38b;
+    background-attachment: fixed;
+    color: #fff3cd;
+    text-shadow: #4d3e3e 2px 2px 2px;
+}
+
+div.section3 h1 {
+    text-align: center;
+    border-bottom: 1px solid #ffc38b;
+    padding: 10px;
+    margin: 30px auto;
+    max-width: 500px;
+    font-family: 'Oswald', sans-serif;
+}
+
+div.section3 form {
+    margin: auto;
+    text-align: center;
+}
+
+div.section3 form p {
+    padding: 10px;
+}
+
+div.section3 form input {
+    width: 300px;
+    border: 2px solid #ffc38b;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div.section3 form textarea {
+    width: 302px;
+    padding: 10px;
+    border: 2px solid #ffc38b;
+    color: #000;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+/* FOOTER */
+footer {
+    padding: 30px;
+    background: #ff926b;
+    color: #4d3e3e;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    padding: 5px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #4d3e3e;
+    font-size: 40px;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+    color: #4d3e3e;
+}
+footer a {
+  text-decoration: none;
+  color: #4d3e3e;
+}
+
+.search {
+    cursor: pointer;
+}
+
+hr {
+    margin: auto 300px;
+}
+
+@media (min-width: 992px) {
+    div.section1 h1 {
+        font-size: 150px;
+    }
+
+    div.section1 h3 {
+        font-size: 24px;
+    }
+
+    div.section1 {
+        padding: 300px;
+    }
+
+    nav>a {
+        font-size: 27px;
+    }
+
+    nav ul {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    div.section3 form textarea,
+    div.section3 form input {
+        width: 600px;
+    }
+
+    div.section2 {
+        padding: 200px;
+    }
+
+    div.section3 {
+        padding: 200px;
+    }
+}
